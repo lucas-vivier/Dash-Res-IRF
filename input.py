@@ -37,8 +37,8 @@ order = {
     'Energy performance': ['G', 'F', 'E', 'D', 'C', 'B', 'A', 'BBC', 'BEPOS'],
     'Housing type': ['Single-family', 'Multi-family'],
     'Occupancy status': ['Homeowners', 'Landlords', 'Social-housing'],
-    'Income class': ['D1', 'D2', 'D3', 'D4', 'D5', 'D6', 'D7', 'D8', 'D9', 'D10'],
-    'Income class owner': ['D1', 'D2', 'D3', 'D4', 'D5', 'D6', 'D7', 'D8', 'D9', 'D10'],
+    'Income class': ['C1', 'C2', 'C3', 'C4', 'C5'],
+    'Income class owner': ['C1', 'C2', 'C3', 'C4', 'C5'],
     'Heating energy': ['Power', 'Natural gas', 'Oil fuel', 'Wood fuel']
 }
 
