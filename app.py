@@ -3,11 +3,9 @@ import dash_core_components as dcc
 import dash_html_components as html
 import dash_table
 from dash.dependencies import Input, Output
-import plotly.express as px
 import pandas as pd
 import seaborn as sns
 from input import scenarios, detailed, stock, order, colors_attributes, subsidies, color_policies, scenarios_table
-from utils import make_dash_table
 
 
 pd.options.plotting.backend = 'plotly'

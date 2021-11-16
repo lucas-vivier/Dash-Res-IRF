@@ -1,9 +1,11 @@
 import pandas as pd
-import os
+import os, sys
 import json
 
 
 from utils import reverse_nested_dict
+
+sys.path.append(os.path.dirname(__file__))
 
 with open('assets/colors.json') as f:
     colors_attributes = json.load(f)
