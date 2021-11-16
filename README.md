@@ -20,5 +20,6 @@ ZP: Zero Politics
 AP: All Politics 
 
 [![GitHub][1]][https://github.com/lucas-vivier/Res-IRF]
+
 [1]: http://i.imgur.com/9I6NRUm.png (github icon without padding)
 
