@@ -1,3 +1,4 @@
+import os
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
@@ -15,10 +16,13 @@ app = dash.Dash(__name__, meta_tags=[{'name': 'viewport', 'content': 'width=devi
 app.title = 'Res-IRF User Interface'
 server = app.server
 
-with open('assets/description.md', 'r') as f:
+folder_assets = os.path.join(os.path.dirname(__file__), 'assets')
+
+
+with open(os.path.join(folder_assets, 'description.md'), 'r') as f:
     description = f.read()
 
-with open('assets/contacts.md', 'r') as f:
+with open(os.path.join(folder_assets, 'contacts.md'), 'r') as f:
     contacts = f.read()
 
 app.layout = \
