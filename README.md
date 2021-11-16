@@ -1,26 +1,27 @@
 
-##### Overview of Res-IRF model
+# **Overview of Res-IRF model**
 
 The Res-IRF model is a tool for simulating energy consumption and energy efficiency improvements in the French
 residential building sector. It currently focuses on space heating as the main usage. The rationale for its development
 is to integrate a detailed description of the energy performance of the dwelling stock with a rich description of
-household behaviour. Res-IRF has been developed to improve the behavioural realism that is typically lacking in integrated
-models of energy demand.  
+household behaviour. Res-IRF has been developed to improve the behavioural realism that is typically lacking in
+integrated models of energy demand. 
 
-[Source code](https://github.com/lucas-vivier/Res-IRF)  
-[Documentation](https://lucas-vivier.github.io/Res-IRF/)  
+Res-IRF 3.0 is freely available on [GitHub](https://github.com/lucas-vivier/Res-IRF).   
+Complete list of inputs used and technical documentation are freely available on 
+[Res-IRF website](https://lucas-vivier.github.io/Res-IRF/).
 
-##### User interface description
+# **User interface description**
 
-This web app allows reading output files of Res-IRF 3.0 from previous simulation.  
-This application does not allow performing original simulations. For that see directly the 
-[GitHub repository]((https://github.com/lucas-vivier/Res-IRF)).  
+This application is intended to give an overview of the main results of the Res-IRF 3.0 model.  
+It cannot replace an in-depth analysis in the sense that:
 
-ZP: Zero Politics  
-AP: All Politics 
+- The list of results proposed is not exhaustive.
+- The results are aggregated and not presented by agent.
+- The interface proposes only 3 graphs template.
+- **The interface does not allow to run the model**, and instead proposes to browse a limited number of scenarios.
 
-[![GitHub][1.2]][1]
-
-[1.2]: http://i.imgur.com/9I6NRUm.png (github icon without padding)
-
-[1]: https://github.com/lucas-vivier/Res-IRF
+**Contents**
+- Aggregated results evolution. Available and scenarios outputs are listed in the dropdown button.
+- Building stock evolution. 
+- Policies cost evolution.

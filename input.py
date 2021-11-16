@@ -49,3 +49,6 @@ color_policies = {
 subsidies = {subsidy: detailed[subsidy] for subsidy in color_policies.keys()}
 subsidies = reverse_nested_dict(subsidies)
 subsidies = {key: pd.DataFrame(item) for key, item in subsidies.items()}
+
+
+scenarios_table = pd.read_csv('assets/scenario.csv', index_col=None, header=[0]).dropna()
