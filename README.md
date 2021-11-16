@@ -19,7 +19,8 @@ This application does not allow performing original simulations. For that see di
 ZP: Zero Politics  
 AP: All Politics 
 
-[![GitHub][1]][https://github.com/lucas-vivier/Res-IRF]
+[![GitHub][1.2]][1]
 
-[1]: http://i.imgur.com/9I6NRUm.png (github icon without padding)
+[1.2]: http://i.imgur.com/9I6NRUm.png (github icon without padding)
 
+[1]: https://github.com/lucas-vivier/Res-IRF
