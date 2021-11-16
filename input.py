@@ -7,10 +7,13 @@ from utils import reverse_nested_dict
 
 sys.path.append(os.path.dirname(__file__))
 
-with open('assets/colors.json') as f:
+folder_data = os.path.join(os.path.dirname(__file__), 'data', 'scenarios')
+folder_assets = os.path.join(os.path.dirname(__file__), 'assets')
+
+
+with open(os.path.join(folder_assets, 'colors.json')) as f:
     colors_attributes = json.load(f)
 
-folder_data = 'data/scenarios'
 
 scenarios = [f for f in os.listdir(folder_data) if f not in ['log.txt', '.DS_Store', 'img']]
 folders = {scenario: os.path.join(folder_data, scenario) for scenario in scenarios}
@@ -53,4 +56,4 @@ subsidies = reverse_nested_dict(subsidies)
 subsidies = {key: pd.DataFrame(item) for key, item in subsidies.items()}
 
 
-scenarios_table = pd.read_csv('assets/scenario.csv', index_col=None, header=[0]).dropna()
+scenarios_table = pd.read_csv(os.path.join(folder_assets, 'scenario.csv'), index_col=None, header=[0]).dropna()
