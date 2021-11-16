@@ -1,0 +1,14 @@
+﻿Name,Public policies,Endogenous techological change,Energy prices,Households income,Comments
+ZP,False,Learning rate of 15% for new construction and 10% for renovation,ADEME scenario,"Growth rate of 1,2% p.a.",Discount rates  described in the documentation
+"ZP, no technical change",False,Frozen. Learning rates set to zero.,ADEME scenario,"Growth rate of 1,2% p.a.",Discount rates  described in the documentation
+"ZP, no technical change, frozen price",False,Frozen. Learning rates set to zero.,Frozen,"Growth rate of 1,2% p.a.",Discount rates  described in the documentation
+"ZP, no technical change, frozen price and income",False,Frozen. Learning rates set to zero.,Frozen,Frozen,Discount rates  described in the documentation
+"ZP, no credit constraints",False,Frozen. Learning rates set to zero.,Frozen,Frozen,All discount rates are equal to 7%
+"ZP, public investment",False,Learning rate of 15% for new construction and 10% for renovation,ADEME scenario,"Growth rate of 1,2% p.a.",All discount rates are equal to 4%
+"ZP, full capitalization",False,Learning rate of 15% for new construction and 10% for renovation,ADEME scenario,"Growth rate of 1,2% p.a.",Investment horizon corresponds to the entire lifetime of energy retrofits.
+"ZP, no capitalization at resale",False,Learning rate of 15% for new construction and 10% for renovation,ADEME scenario,"Growth rate of 1,2% p.a.","Investment horizon is limited to seven years, equivalent to the average length of ownership of a ."
+"ZP, no capitalization at resale nor sales",False,Learning rate of 15% for new construction and 10% for renovation,ADEME scenario,"Growth rate of 1,2% p.a.",Owner-tenant dilemma adds to the lack of capitalization of the resale premium.
+AP,True,Learning rate of 15% for new construction and 10% for renovation,ADEME scenario,"Growth rate of 1,2% p.a.",Discount rates  described in the documentation
+"AP, no technical change",True,Frozen. Learning rates set to zero.,ADEME scenario,"Growth rate of 1,2% p.a.",Discount rates  described in the documentation
+,,,,,
+,,,,,s
