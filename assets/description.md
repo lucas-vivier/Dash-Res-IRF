@@ -7,9 +7,9 @@ is to integrate a detailed description of the energy performance of the dwelling
 household behaviour. Res-IRF has been developed to improve the behavioural realism that is typically lacking in
 integrated models of energy demand. 
 
-Res-IRF 3.0 is freely available on [GitHub](https://github.com/lucas-vivier/Res-IRF).   
+Res-IRF 3.0 is freely available on [GitHub](https://github.com/CIRED/Res-IRF).   
 Complete list of inputs used and technical documentation are freely available on 
-[Res-IRF website](https://lucas-vivier.github.io/Res-IRF/).
+[Res-IRF website](https://cired.github.io/Res-IRF/).
 
 ###### **User interface description**
 
